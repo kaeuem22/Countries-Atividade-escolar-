@@ -154,12 +154,68 @@ main .countries .card .info strong {
   background: #fff;
   color: #111517;
 }
+.light-theme main {
+  background: #fafafa;
+}
+.light-theme main .search {
+  background: #fff;
+  color: #111517;
+}
+.light-theme main .search input {
+  background: #fff;
+  color: #111517;
+}
+.light-theme main .search input::-moz-placeholder {
+  color: #111517;
+}
+.light-theme main .search input:-ms-input-placeholder {
+  color: #111517;
+}
+.light-theme main .search input::placeholder {
+  color: #111517;
+}
+.light-theme main .options {
+  background: #fff;
+  color: #111517;
+}
+.light-theme main .card {
+  background: #fff;
+  color: #111517;
+}
 
 .dark-theme header {
   background: #2b3945;
   color: #fff;
 }
 .dark-theme header .theme button {
+  background: #2b3945;
+  color: #fff;
+}
+.dark-theme main {
+  background: #202c37;
+}
+.dark-theme main .search {
+  background: #2b3945;
+  color: #fff;
+}
+.dark-theme main .search input {
+  background: #2b3945;
+  color: #fff;
+}
+.dark-theme main .search input::-moz-placeholder {
+  color: #fff;
+}
+.dark-theme main .search input:-ms-input-placeholder {
+  color: #fff;
+}
+.dark-theme main .search input::placeholder {
+  color: #fff;
+}
+.dark-theme main .options {
+  background: #2b3945;
+  color: #fff;
+}
+.dark-theme main .card {
   background: #2b3945;
   color: #fff;
 }/*# sourceMappingURL=index.css.map */

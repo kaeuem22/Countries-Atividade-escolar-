@@ -83,11 +83,11 @@ main {
         }
     }
 
-    .countries{
+    .countries {
         margin-top: 3.4rem;
         padding: 3.4rem;
 
-        .card{
+        .card {
             width: 26.4rem;
             border-radius: 0.5rem;
             margin-bottom: 4rem;
@@ -98,22 +98,22 @@ main {
                 border-radius: 0.5rem 0.5rem 0 0;
             }
 
-            .info{
+            .info {
                 padding: 2.4rem 2.4rem 3.8rem 2.4rem;
 
-                h2{
+                h2 {
                     font-size: 1.8rem;
                     font-weight: 800;
                     margin-bottom: 1.6rem;
                 }
 
-                p{
+                p {
                     font-size: 1.4rem;
                     margin-bottom: 0.8rem;
                     font-weight: 300;
                 }
 
-                strong{
+                strong {
                     font-weight: 600;
                 }
             }
@@ -123,15 +123,43 @@ main {
 
 @mixin themeSwitch($theme-name, $texts, $cards, $input, $main) {
     .#{$theme-name} {
-        header{
+        header {
             background: $cards;
             color: $texts;
 
-            .theme{
-                button{
+            .theme {
+                button {
                     background: $cards;
                     color: $texts;
                 }
+            }
+        }
+
+        main {
+            background: $main;
+
+            .search {
+                background: $cards;
+                color: $texts;
+
+                input {
+                    background: $cards;
+                    color: $texts;
+
+                    &::placeholder {
+                        color: $texts
+                    }
+                }
+            }
+
+            .options {
+                background: $cards;
+                color: $texts;
+            }
+    
+            .card {
+                background: $cards;
+                color: $texts;
             }
         }
     }
